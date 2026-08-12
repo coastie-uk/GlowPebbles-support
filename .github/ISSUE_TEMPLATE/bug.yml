@@ -1,0 +1,60 @@
+name: Report a problem
+description: Tell us about something that is not working as expected.
+title: "[Problem]: "
+labels: ["problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. Reports are public, so please do not include personal information.
+  - type: input
+    id: app-version
+    attributes:
+      label: GlowPebbles version
+      description: This is shown under Device & About in the parent controls.
+      placeholder: 1.2.0
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: e.g. Sony Xperia Tablet Z, Android 5.1.1
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+      description: Describe what you saw and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Tell us the shortest sequence that makes the problem happen.
+      placeholder: |
+        1. Open…
+        2. Select…
+        3. Tap…
+    validations:
+      required: false
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Often
+        - Sometimes
+        - Once
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have not included names, email addresses or other personal information.
+          required: true

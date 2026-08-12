@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://coastie-uk.github.io/GlowPebbles-support/sitemap.xml
