@@ -56,11 +56,8 @@ main { overflow: hidden; }
 
 .screenshot-frame { margin: 0; min-width: 0; }
 .screenshot-hero { max-width: 470px; transform: rotate(1.5deg); width: 100%; }
-.screenshot-placeholder { align-items: center; aspect-ratio: 16 / 10; background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.75) 0 1px, transparent 2px), radial-gradient(circle at 72% 28%, rgba(255,255,255,.6) 0 1px, transparent 2px), linear-gradient(145deg, #455b60, #2d4146); border: 13px solid #e6e4dd; border-radius: 26px; box-shadow: var(--shadow); color: rgba(255,255,255,.84); display: flex; flex-direction: column; gap: 12px; justify-content: center; overflow: hidden; padding: 28px; position: relative; text-align: center; }
-.screenshot-placeholder::after { border: 1px dashed rgba(255,255,255,.34); border-radius: 13px; content: ""; inset: 19px; pointer-events: none; position: absolute; }
-.screenshot-placeholder strong { color: white; font-size: 1.02rem; position: relative; z-index: 2; }
-.screenshot-placeholder span { font-size: .75rem; position: relative; z-index: 2; }
-.screenshot-placeholder code { color: inherit; overflow-wrap: anywhere; }
+.screenshot-frame picture { display: block; }
+.screenshot-media { background: #2d4146; border: 13px solid #e6e4dd; border-radius: 26px; box-shadow: var(--shadow); display: block; height: auto; width: 100%; }
 .screenshot-frame figcaption { color: var(--muted); font-size: .8rem; margin-top: 13px; text-align: center; }
 
 .mode-grid { border-top: 1px solid var(--line); display: grid; gap: 0 34px; grid-template-columns: repeat(4, 1fr); margin-top: 55px; }
@@ -71,12 +68,6 @@ main { overflow: hidden; }
 
 .screenshot-section { padding-top: 70px; }
 .screenshot-grid { display: grid; gap: 34px; grid-template-columns: 1fr 1fr; margin-top: 50px; }
-.screenshot-grid .screenshot-placeholder { aspect-ratio: 16 / 9; }
-.piano-keys { bottom: 38px; display: grid !important; grid-template-columns: repeat(8, 1fr); height: 46%; left: 36px; opacity: .28; position: absolute !important; right: 36px; }
-.piano-keys i { background: #f7f6f0; border: 1px solid #34494d; }
-.ripple-ring { border: 2px solid rgba(207,231,230,.38); border-radius: 50%; height: 110px; position: absolute !important; width: 110px; }
-.ring-two { height: 180px; width: 180px; }
-.ring-three { height: 250px; width: 250px; }
 
 .download { align-items: start; background: var(--white); border: 1px solid var(--line); border-radius: 38px; display: grid; gap: 55px 9%; grid-template-columns: 1.2fr .8fr; margin-bottom: 110px; padding: 70px 78px; }
 .download-copy > p { color: var(--muted); }
@@ -145,8 +136,7 @@ footer p:last-child { text-align: right; }
   h1 { font-size: 3.55rem; }
   .mode-grid, .install-guide ol { grid-template-columns: 1fr; }
   .mode-wide { grid-column: auto; }
-  .screenshot-placeholder { border-width: 8px; padding: 18px; }
-  .screenshot-placeholder code { display: none; }
+  .screenshot-media { border-width: 8px; }
   .download { padding-left: 20px; padding-right: 20px; }
 }
 
