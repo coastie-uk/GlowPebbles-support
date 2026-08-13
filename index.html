@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="GlowPebbles support, privacy information, and help for parents.">
+  <meta name="description" content="Download GlowPebbles and find support, privacy information, and help for caregivers.">
   <meta name="theme-color" content="#f4f3ef">
-  <title>GlowPebbles — calm, colourful play</title>
+  <title>GlowPebbles &mdash; calm, colourful play</title>
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/site.css">
 </head>
@@ -16,7 +16,8 @@
       <span>GlowPebbles</span>
     </a>
     <nav aria-label="Primary navigation">
-      <a href="#about">About</a>
+      <a href="#modes">Modes</a>
+      <a href="#download">Download</a>
       <a href="#help">Help</a>
       <a href="#privacy">Privacy</a>
       <a class="nav-contact" href="#contact">Contact</a>
@@ -28,10 +29,10 @@
       <div class="hero-copy">
         <p class="eyebrow">A simple Android game for little hands</p>
         <h1 id="hero-title">Tap, trail and glow.</h1>
-        <p class="lede">GlowPebbles turns every touch into a soft, colourful trail. It is made for calm, shared play—and works entirely offline.</p>
+        <p class="lede">GlowPebbles turns every touch into gentle colour, movement and sound. It is made for calm, shared play&mdash;and works entirely offline.</p>
         <div class="actions">
-          <a class="button primary" href="#help">Get help</a>
-          <a class="button secondary" href="#contact">Contact support</a>
+          <a class="button primary" href="downloads/GlowPebbles-latest.apk" download>Download 1.3.0-RC1</a>
+          <a class="button secondary" href="#download">Installation details</a>
         </div>
         <ul class="trust-list" aria-label="Key details">
           <li>No adverts</li>
@@ -39,39 +40,108 @@
           <li>No Internet permission</li>
         </ul>
       </div>
-      <div class="play-card" aria-hidden="true">
-        <span class="star star-one">✦</span>
-        <span class="star star-two">✦</span>
-        <span class="pebble pebble-one"></span>
-        <span class="pebble pebble-two"></span>
-        <span class="pebble pebble-three"></span>
-        <span class="pebble pebble-four"></span>
-        <span class="trail"></span>
-        <p>Made for multi-touch</p>
-      </div>
+      <figure class="screenshot-frame screenshot-hero">
+        <div class="screenshot-placeholder">
+          <img src="assets/icon.svg" alt="" width="54" height="54">
+          <strong>Normal play animation</strong>
+          <span>Placeholder for <code>assets/screenshots/normal-play.gif</code></span>
+        </div>
+        <figcaption>Normal play</figcaption>
+      </figure>
     </section>
 
-    <section class="section" id="about" aria-labelledby="about-title">
+    <section class="section" id="modes" aria-labelledby="modes-title">
       <div class="section-heading">
-        <p class="eyebrow">About the app</p>
-        <h2 id="about-title">Playful by design. Quiet by default.</h2>
+        <p class="eyebrow">Ways to play</p>
+        <h2 id="modes-title">A different kind of calm for every moment.</h2>
+        <p class="section-intro">Visual play styles and sound styles can be combined, so caregivers can find a gentle setup that suits the child and device.</p>
       </div>
-      <div class="feature-grid">
+      <div class="mode-grid">
         <article>
           <span class="feature-number">01</span>
-          <h3>Made for touch</h3>
-          <p>Tap and drag with several fingers at once to create bubbles, stars, hearts, letters, numbers and slow ripples.</p>
+          <h3>Basic</h3>
+          <p>Soft fading trails without temporary shapes&mdash;simple, colourful and uncluttered.</p>
         </article>
         <article>
           <span class="feature-number">02</span>
-          <h3>Parent-friendly</h3>
-          <p>A deliberate two-corner hold opens controls for sound, visuals, performance, counters and the play timer.</p>
+          <h3>Shapes</h3>
+          <p>Bubbles, hearts, smiles, stars, letters and numbers bloom around each touch.</p>
         </article>
         <article>
           <span class="feature-number">03</span>
-          <h3>Built for older tablets</h3>
-          <p>GlowPebbles supports Android 5.1 and newer, with performance presets suited to a wide range of devices.</p>
+          <h3>Slow ripples</h3>
+          <p>Gentle expanding rings replace trails and shapes for a quieter visual experience.</p>
         </article>
+        <article>
+          <span class="feature-number">04</span>
+          <h3>Drawing</h3>
+          <p>Every active finger paints a persistent trail. A caregiver-only hold clears the canvas.</p>
+        </article>
+        <article class="mode-wide">
+          <span class="feature-number">Sound</span>
+          <h3>Chimes, nursery rhymes and Piano</h3>
+          <p>Choose gentle random chimes, familiar nursery-rhyme melodies, or a full-screen C4&ndash;C5 Piano keyboard. Piano works over every visual play style, supports swipes and five-finger chords, and remains visible when sound is muted.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section screenshot-section" aria-labelledby="screenshots-title">
+      <div class="section-heading">
+        <p class="eyebrow">Screenshots</p>
+        <h2 id="screenshots-title">See each experience.</h2>
+        <p class="section-intro">The large Normal play animation above and these two spaces are ready for short, gently paced GIF captures from the app.</p>
+      </div>
+      <div class="screenshot-grid">
+        <figure class="screenshot-frame">
+          <div class="screenshot-placeholder piano-placeholder">
+            <span class="piano-keys" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+            <strong>Piano mode animation</strong>
+            <span>Placeholder for <code>assets/screenshots/piano.gif</code></span>
+          </div>
+          <figcaption>Piano &mdash; full-screen keys with gentle rainbow feedback</figcaption>
+        </figure>
+        <figure class="screenshot-frame">
+          <div class="screenshot-placeholder ripple-placeholder">
+            <span class="ripple-ring ring-one" aria-hidden="true"></span>
+            <span class="ripple-ring ring-two" aria-hidden="true"></span>
+            <span class="ripple-ring ring-three" aria-hidden="true"></span>
+            <strong>Slow ripples animation</strong>
+            <span>Placeholder for <code>assets/screenshots/ripples.gif</code></span>
+          </div>
+          <figcaption>Slow ripples &mdash; spacious expanding rings</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section download" id="download" aria-labelledby="download-title">
+      <div class="download-copy">
+        <p class="eyebrow">Download</p>
+        <h2 id="download-title">Try the latest candidate.</h2>
+        <p>Version <strong><!-- release-version -->1.3.0-RC1<!-- /release-version --></strong> is the newest personal-sideload build. It includes Piano, Drawing, trail persistence, and the full set of visual and sound styles.</p>
+        <div class="actions">
+          <a class="button primary" href="downloads/GlowPebbles-latest.apk" download>Download APK</a>
+          <a class="button secondary" href="downloads/SHA256SUMS.txt">View checksum</a>
+        </div>
+        <p class="checksum">SHA-256: <code><!-- release-sha256 -->38daed4916046cc45eee08253ace3a36183b8276080aedffea4e37e2e04fd6b5<!-- /release-sha256 --></code></p>
+      </div>
+      <aside class="release-note" aria-label="Release candidate information">
+        <span class="status-badge">Release candidate</span>
+        <h3>Before installing</h3>
+        <p>This APK is debug-signed for personal sideloading rather than distributed through an app store. Android may ask you to allow installation from the browser or file manager you use.</p>
+        <p>The automated test and device matrix has passed. Comfortable audible sound, real digitizer multi-touch, and Android's user-controlled pin/unpin flow remain manual checks before final 1.3.0.</p>
+        <p>Requires Android 5.1 or newer.</p>
+      </aside>
+      <div class="install-guide">
+        <p class="eyebrow">Install by sideloading</p>
+        <h3>How to install the APK</h3>
+        <ol>
+          <li>Download the APK on the Android device.</li>
+          <li>Open the downloaded file from your browser or Files app.</li>
+          <li>If Android blocks it, open the prompt's settings and allow <strong>Install unknown apps</strong> for that browser or Files app.</li>
+          <li>Return to the APK and choose <strong>Install</strong>.</li>
+          <li>Open GlowPebbles and review Android's screen-pinning prompt.</li>
+        </ol>
+        <p>GlowPebbles is not currently distributed through an app store, so sideloading is required. Android's wording varies by device. You can turn off the browser or Files app's installation permission again after installing.</p>
       </div>
     </section>
 
@@ -82,12 +152,16 @@
       </div>
       <div class="faq-list">
         <details>
-          <summary>How do I open the parent controls?</summary>
+          <summary>How do I open caregiver Settings?</summary>
           <p>Hold one finger in each top corner for three continuous seconds. Moving or lifting either finger cancels the gesture.</p>
         </details>
         <details>
           <summary>How do I leave the game?</summary>
-          <p>Open the parent controls, then hold <strong>Hold to exit</strong> for two seconds. If screen pinning is active, Android may also ask for your usual unpin action or device PIN.</p>
+          <p>Open Settings, then hold <strong>Hold to exit</strong> for two seconds. If screen pinning is active, Android may also ask for your usual unpin action or device PIN.</p>
+        </details>
+        <details>
+          <summary>How does Piano work?</summary>
+          <p>Choose Piano under sound style. It adds a full-screen keyboard over Basic, Shapes, Slow ripples, or Drawing. Tap keys, slide between them, or play up to five notes together.</p>
         </details>
         <details>
           <summary>Why does Android ask about screen pinning?</summary>
@@ -95,11 +169,11 @@
         </details>
         <details>
           <summary>The animation feels slow. What can I try?</summary>
-          <p>In parent controls, open <strong>Device &amp; About</strong> and select the Low performance preset. Slow ripples and simpler shape sets can also help older hardware.</p>
+          <p>In Settings, open <strong>Device &amp; About</strong> and select the Low performance preset. Basic and Slow ripples are also inexpensive choices for older hardware.</p>
         </details>
         <details>
           <summary>Which Android versions are supported?</summary>
-          <p>GlowPebbles supports Android 5.1 (API 22) and newer. The current release is version 1.2.0.</p>
+          <p>GlowPebbles supports Android 5.1 (API 22) and newer. The current public download is the 1.3.0-RC1 release candidate; version 1.2.0 remains the stable packaged build.</p>
         </details>
       </div>
     </section>
@@ -109,8 +183,8 @@
         <p class="eyebrow">Privacy</p>
         <h2 id="privacy-title">Nothing leaves the app.</h2>
         <p>GlowPebbles does not request Android permissions, connect to the Internet, show adverts, create user accounts, or include analytics. Settings and the lifetime tap count stay on the device.</p>
-        <p>Visiting this support site is separate from using the app. This site is hosted by GitHub Pages and is subject to <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="external">GitHub’s privacy statement</a>.</p>
-        <p class="updated">Privacy information last updated 12 August 2026.</p>
+        <p>Visiting this support site is separate from using the app. This site is hosted by GitHub Pages and is subject to <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="external">GitHub's privacy statement</a>.</p>
+        <p class="updated">Privacy information last updated 13 August 2026.</p>
       </div>
       <div class="privacy-mark" aria-hidden="true">
         <svg viewBox="0 0 120 120" role="img">
@@ -138,7 +212,7 @@
       <span>GlowPebbles</span>
     </a>
     <p>Colourful play, entirely offline.</p>
-    <p>Version 1.2.0 · <a href="https://github.com/coastie-uk/GlowPebbles-support/issues">Support</a></p>
+    <p>1.3.0-RC1 &middot; <a href="https://github.com/coastie-uk/GlowPebbles-support/issues">Support</a></p>
   </footer>
 </body>
 </html>
