@@ -96,7 +96,8 @@ details p { color: var(--muted); margin: 14px 42px 4px 0; }
 .privacy-copy { max-width: 680px; }
 .privacy-copy > p:not(.eyebrow) { color: #4d5c5d; }
 .updated { font-size: .78rem; margin-top: 32px; }
-.privacy-mark { color: #769b9a; margin: auto; max-width: 170px; }
+.privacy-mark { color: #769b9a; margin: auto; width: 170px; }
+.privacy-mark svg { display: block; height: auto; width: 100%; }
 
 .contact { background: var(--white); border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); padding: 110px 28px; text-align: center; }
 .contact > p:not(.eyebrow) { color: var(--muted); margin-left: auto; margin-right: auto; max-width: 640px; }
